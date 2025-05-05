@@ -58,7 +58,7 @@ const Index = () => {
       
       {/* Animated scroll indicator */}
       <div 
-        className={`fixed bottom-8 right-8 w-10 h-10 rounded-full bg-primary flex items-center justify-center cursor-pointer transition-opacity duration-500 hover:scale-110 ${scrollY > 300 ? 'opacity-80' : 'opacity-0'}`}
+        className={`fixed bottom-8 right-8 w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center cursor-pointer transition-opacity duration-500 hover:scale-110 ${scrollY > 300 ? 'opacity-80' : 'opacity-0'}`}
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
