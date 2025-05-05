@@ -1,5 +1,12 @@
 
 <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <path d="M30,10 Q50,0 70,10 T90,30 Q100,50 90,70 T70,90 Q50,100 30,90 T10,70 Q0,50 10,30 T30,10" fill="none" stroke="#22c55e" stroke-width="1"/>
-  <path d="M40,20 Q50,10 60,20 T70,40 Q80,50 70,60 T60,80 Q50,90 40,80 T30,60 Q20,50 30,40 T40,20" fill="none" stroke="#22c55e" stroke-width="1"/>
+  <path d="M30,10 Q50,0 70,10 T90,30 Q100,50 90,70 T70,90 Q50,100 30,90 T10,70 Q0,50 10,30 T30,10" fill="none" stroke="#22c55e" stroke-width="1">
+    <animate attributeName="stroke-dasharray" from="0,500" to="500,500" dur="3s" begin="0s" repeatCount="indefinite" />
+  </path>
+  <path d="M40,20 Q50,10 60,20 T70,40 Q80,50 70,60 T60,80 Q50,90 40,80 T30,60 Q20,50 30,40 T40,20" fill="none" stroke="#22c55e" stroke-width="1">
+    <animate attributeName="stroke-dasharray" from="0,500" to="500,500" dur="3s" begin="1s" repeatCount="indefinite" />
+  </path>
+  <path d="M50,30 Q60,20 70,30 T80,50 Q90,60 80,70 T70,80 Q60,90 50,80 T40,70 Q30,60 40,50 T50,30" fill="none" stroke="#22c55e" stroke-width="0.8" opacity="0.7">
+    <animate attributeName="stroke-dasharray" from="0,500" to="500,500" dur="3s" begin="2s" repeatCount="indefinite" />
+  </path>
 </svg>
